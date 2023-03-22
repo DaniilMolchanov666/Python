@@ -1,8 +1,12 @@
 class Calculator:
 
+    # задаем значения, вводимые с клавиатуры
+
     first_number = input('введите первое число: ')
     operation = input('введите знак: ')
     second_number = input('введите второе число: ')
+
+    # зприсваиваем новым значениям
 
     a = float(first_number)
     b = float(second_number)
