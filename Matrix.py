@@ -22,5 +22,3 @@ for i in range(string):
             index = index + 1
             matrix[i][j] = index
         print(matrix[j])
-
-
